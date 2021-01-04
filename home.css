@@ -1,0 +1,193 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo > img{
+  height: 175px;
+  width: 200px;
+  padding-left: 20px;
+  /* background-color: aqua; */
+}
+
+.brand{
+  text-align: center;
+}
+
+.icon-links > i{
+  margin: 0 7px;
+  border-radius: 100%;
+  padding: 10px;
+  transition: 0.5s;
+  transition-timing-function: ease-out;  
+}
+
+.insta{
+  color:  #e4405f;
+}
+
+.insta:hover{
+  background-color: white;
+  box-shadow: 0px 1px 60px 5px #e4405f;
+  transform: translate(0, -7px);
+}
+
+.linked{
+  color: #0077B5;
+}
+
+.linked:hover{
+  background-color: white;
+  box-shadow: 0px 1px 60px 5px #0077B5;
+  transform: translate(0, -7px);
+}
+
+.facebook{
+  color: #3b5999;
+}
+
+.facebook:hover{
+  background-color: white;
+  box-shadow: 0px 1px 60px 5px #3b5999;
+  transform: translate(0, -7px);
+}
+
+/* Top nav end*/
+
+/* Carousel */
+
+.carousel{
+  height: 600px;
+  width: 100%;
+}
+
+.carousel-item > img{
+  width: 100%;
+  height: 600px;
+}
+
+/* Carousel end */
+
+/* Grow Animation start */
+
+.grow-animation{
+  margin-top: 120px;
+}
+
+
+
+/* Grow animation end */
+
+/* About us start */
+
+.about_us{
+  margin-top: 120px;
+}
+
+.insta-counter{
+  color: #e4405f;
+}
+
+.linked-counter{
+  color: #0077B5;
+}
+
+.facebook-counter{
+  color: #3b5999;
+}
+
+/* .about_us_def{
+  /* padding: 0 130px; */
+/* }  */
+
+
+/* About us end */
+
+
+/* Mission starts */
+
+.mission{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.mission_icon>i{
+  padding: 15px;
+  border-radius: 100%;
+  box-shadow: 0px 10px 10px -4px ;
+}
+
+.mission_icon>i
+
+/* Mission ends */
+
+
+/* Contact Us starts */
+
+.contact{
+  margin-top: 120px;
+}
+
+input, textarea{
+  border: none;
+  border-bottom: 2px solid rgb(199, 187, 187);
+  transition: 0.7s;
+}
+
+input::placeholder, textarea::placeholder{
+  font-size: 1.2rem;
+}
+
+input:focus, textarea:focus{
+  border-bottom: 2px solid black;
+}
+
+input:focus, textarea:focus{
+  outline: none; 
+}
+
+.form_submit{
+  background-color: rgb(129, 122, 122);
+  color: white;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.form_submit:hover{
+  background-color: black;
+  color: rgb(173, 156, 156);
+}
+
+.form_submit:hover i{
+  transform: translate(7px, 0);
+}
+
+.contact_left_form{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.email_redirect{
+  text-decoration: none;
+  color: white;
+}
+
+.email_redirect > i{
+  transition: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.email_redirect:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.email_redirect:hover i{
+  text-decoration: none;
+  color: white;
+  transform: translate(5px, -5px);
+}
+
+/* Contact Us ends */
