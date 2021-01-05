@@ -2,7 +2,36 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Arvo', serif;
 }
+
+/* Header sidelines */
+
+.sideline{  
+  overflow: hidden;
+  /* text-align: center;    */
+}
+
+.sideline:before, .sideline:after{
+  background-color: #333;
+ content: "";
+ display: inline-block;
+ height: 3px;
+ position: relative;
+ vertical-align: middle;
+ width: 100px;
+}
+
+.sideline:before {
+  right: 0.2em;
+  /* margin-left: -80%; */
+ }
+ .sideline:after {
+  left: 0.2em;
+  /* margin-right: -80%; */
+ }
+
+/* Header sidelines end */
 
 .logo > img{
   height: 175px;
@@ -115,10 +144,34 @@
 .mission_icon>i{
   padding: 15px;
   border-radius: 100%;
-  box-shadow: 0px 10px 10px -4px ;
+  box-shadow: 0px 4px 10px -4px ;
+  transition: 0.5s;
 }
 
-.mission_icon>i
+.mission_line{
+  transition: 0.5s;
+}
+
+.mission_flex:hover .mission_icon>i{
+  box-shadow: 0px 10px 10px -2px ;
+  transform: translate(0, -7px);
+}
+
+.mission_flex:hover .mission_line_1{
+  color: #0dcaf0;
+}
+
+.mission_flex:hover .mission_line_2{
+  color: #ffc107;
+}
+
+.mission_flex:hover .mission_line_3{
+  color: rgb(220, 53, 69);
+}
+
+.mission_stat{
+  color: #888;
+}
 
 /* Mission ends */
 
@@ -191,3 +244,4 @@ input:focus, textarea:focus{
 }
 
 /* Contact Us ends */
+
