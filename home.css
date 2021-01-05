@@ -7,12 +7,12 @@
 
 /* Header sidelines */
 
-.sideline{  
+/* .sideline{  
   overflow: hidden;
-  /* text-align: center;    */
-}
+  text-align: center;   
+} */
 
-.sideline:before, .sideline:after{
+/* .sideline:before, .sideline:after{
   background-color: #333;
  content: "";
  display: inline-block;
@@ -20,16 +20,16 @@
  position: relative;
  vertical-align: middle;
  width: 100px;
-}
+} */
 
-.sideline:before {
+/* .sideline:before {
   right: 0.2em;
-  /* margin-left: -80%; */
+  margin-left: -80%;
  }
  .sideline:after {
   left: 0.2em;
-  /* margin-right: -80%; */
- }
+  margin-right: -80%;
+ } */
 
 /* Header sidelines end */
 
