@@ -49,50 +49,61 @@ a {
   text-align: center;
 }
 
+.main-ii{
+  color: #DBE9EE;
+  background-color: #011b70;
+}
+
 .icon-links > i {
   margin: 0 7px;
   border-radius: 100%;
   padding: 10px;
-  transition: 0.5s;
+  transition: 0.3s;
   transition-timing-function: ease-out;
 }
 
 .insta {
-  color: #e4405f;
+  /* color: #e4405f;
+  color: #F9A620; */
+  color: #DBE9EE;
 }
 
 .insta:hover {
-  background-color: white;
+  background-color: #DBE9EE;
+  color: #e4405f;
   box-shadow: 0px 1px 60px 5px;
   transform: translate(0, -7px);
 }
 
 .linked {
-  color: #0077b5;
+  color: #DBE9EE;
 }
 
 .linked:hover {
-  background-color: white;
+  background-color: #DBE9EE;
+  color: #0077b5;
   box-shadow: 0px 1px 60px 5px;
   transform: translate(0, -7px);
 }
 
 .facebook {
-  color: #3b5999;
+  color: #DBE9EE;
 }
 
 .facebook:hover {
-  background-color: white;
+  background-color: #DBE9EE;
+  color: #3b5999;
   box-shadow: 0px 1px 60px 5px;
   transform: translate(0, -7px);
 }
 
 .youtube {
-  color: #cd201f;
+  color: #DBE9EE;
 }
 
 .youtube:hover {
-  background-color: white;
+  background-color: #DBE9EE;
+  color: #cd201f;
   box-shadow: 0px 1px 60px 5px;
   transform: translate(0, -7px);
 }
