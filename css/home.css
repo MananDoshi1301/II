@@ -51,7 +51,7 @@ a {
 
 .main-ii{
   color: #DBE9EE;
-  background-color: #011b70;
+  background-color: #003399;
 }
 
 .icon-links > i {
@@ -71,7 +71,7 @@ a {
 .insta:hover {
   background-color: #DBE9EE;
   color: #e4405f;
-  box-shadow: 0px 1px 60px 5px;
+  box-shadow: 0px 1px 40px 5px #DBE9EE;
   transform: translate(0, -7px);
 }
 
@@ -82,7 +82,7 @@ a {
 .linked:hover {
   background-color: #DBE9EE;
   color: #0077b5;
-  box-shadow: 0px 1px 60px 5px;
+  box-shadow: 0px 1px 40px 5px #DBE9EE;
   transform: translate(0, -7px);
 }
 
@@ -93,7 +93,7 @@ a {
 .facebook:hover {
   background-color: #DBE9EE;
   color: #3b5999;
-  box-shadow: 0px 1px 60px 5px;
+  box-shadow: 0px 1px 30px 5px #DBE9EE;
   transform: translate(0, -7px);
 }
 
@@ -104,7 +104,7 @@ a {
 .youtube:hover {
   background-color: #DBE9EE;
   color: #cd201f;
-  box-shadow: 0px 1px 60px 5px;
+  box-shadow: 0px 1px 30px 5px #DBE9EE;
   transform: translate(0, -7px);
 }
 
@@ -154,9 +154,18 @@ a {
 }
 /* Top nav end*/
 
+/* Navbar start */
+
 .nav-container {
   z-index: 20;
 }
+
+.navbar-start{
+  color: #DBE9EE;
+  background-color: #011b70;
+}
+
+/* Navbar end */
 
 /* Carousel */
 
