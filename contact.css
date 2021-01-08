@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+/* Header sidelines end */
+
+.logo > img {
+  height: 175px;
+  width: 200px;
+  padding-left: 20px;
+  /* background-color: aqua; */
+}
+
+.brand {
+  text-align: center;
+}
+
+.icon-links > i {
+  margin: 0 7px;
+  border-radius: 100%;
+  padding: 10px;
+  transition: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.insta {
+  color: #e4405f;
+}
+
+.insta:hover {
+  background-color: white;
+  box-shadow: 0px 1px 60px 5px;
+  transform: translate(0, -7px);
+}
+
+.linked {
+  color: #0077b5;
+}
+
+.linked:hover {
+  background-color: white;
+  box-shadow: 0px 1px 60px 5px;
+  transform: translate(0, -7px);
+}
+
+.facebook {
+  color: #3b5999;
+}
+
+.facebook:hover {
+  background-color: white;
+  box-shadow: 0px 1px 60px 5px;
+  transform: translate(0, -7px);
+}
+
+.youtube {
+  color: #cd201f;
+}
+
+.youtube:hover {
+  background-color: white;
+  box-shadow: 0px 1px 60px 5px;
+  transform: translate(0, -7px);
+}
+
+@media (min-width: 768px) {
+  .icon-links-margin {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .icon-links-parent {
+    margin: 0 250px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 658px) {
+  .icon-links-parent {
+    margin: 0 200px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 525px) {
+  .icon-links-parent {
+    margin: 0 150px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 405px) {
+  .icon-links-parent {
+    margin: 0 100px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 385px) {
+  .icon-links-parent {
+    margin: 0 70px;
+    margin-top: 30px;
+  }
+  .logo > img {
+    height: 125px;
+    width: 140px;
+  }
+}
+/* Top nav end*/
+
+/* Contact Us starts */
+
+.contact {
+  margin-top: 120px;
+}
+
+input,
+textarea {
+  border: none;
+  border-bottom: 2px solid rgb(199, 187, 187);
+  transition: 0.7s;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 1.2rem;
+}
+
+input:focus,
+textarea:focus {
+  border-bottom: 2px solid black;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.form_submit {
+  background-color: rgb(129, 122, 122);
+  color: white;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.form_submit:hover {
+  background-color: black;
+  color: rgb(173, 156, 156);
+}
+
+.form_submit:hover i {
+  transform: translate(7px, 0);
+}
+
+.contact_left_form {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.email_redirect {
+  text-decoration: none;
+  color: white;
+}
+
+.email_redirect > i {
+  transition: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.email_redirect:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.email_redirect:hover i {
+  text-decoration: none;
+  color: white;
+  transform: translate(5px, -5px);
+}
+
+/* Contact Us ends */

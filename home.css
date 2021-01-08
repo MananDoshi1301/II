@@ -230,75 +230,75 @@ a {
 
 /* Mission ends */
 
-/* Contact Us starts */
+/* Sponsor starts */
 
-.contact {
-  margin-top: 120px;
+.sponsor-header{
+  position: relative;
 }
 
-input,
-textarea {
-  border: none;
-  border-bottom: 2px solid rgb(199, 187, 187);
-  transition: 0.7s;
+.sponsor-header::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: #333;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
 }
 
-input::placeholder,
-textarea::placeholder {
-  font-size: 1.2rem;
+.sponsor-header:hover::before{  
+  visibility: visible;
+  transform: scaleX(1);  
 }
 
-input:focus,
-textarea:focus {
-  border-bottom: 2px solid black;
+.card-image-div{
+  height: 300px;
 }
 
-input:focus,
-textarea:focus {
-  outline: none;
-}
+/* Sponsor ends */
 
-.form_submit {
-  background-color: rgb(129, 122, 122);
-  color: white;
-  border-radius: 20px;
-  transition: 0.3s;
-}
 
-.form_submit:hover {
-  background-color: black;
-  color: rgb(173, 156, 156);
-}
+/* Footer starts */
 
-.form_submit:hover i {
-  transform: translate(7px, 0);
-}
+  footer{
+    background-color:#202c39;
+    color: white;
+  }
 
-.contact_left_form {
-  background-color: black;
-  color: white;
-  border-radius: 20px;
-}
+  footer ul{
+    list-style-type: none;
+    color: #b6aaa5;
+    padding-top: 20px;
+  }
 
-.email_redirect {
-  text-decoration: none;
-  color: white;
-}
+  .footer-icon{
+    border-radius: 50%;
+    transition: 0.5s;
+    padding: 10px;
+  }
 
-.email_redirect > i {
-  transition: 0.5s;
-  transition-timing-function: ease-out;
-}
+  .footer-icon:hover{
+    transform: translate(0,-10px);
+  }
 
-.email_redirect:hover {
-  text-decoration: none;
-  color: white;
-}
+  footer ul>li{
+    transition: 0.3s;
+  }
 
-.email_redirect:hover i {
-  text-decoration: none;
-  color: white;
-  transform: translate(5px, -5px);
-}
+  footer ul>li:hover{    
+    color:#F6F4F4;
+  }
 
-/* Contact Us ends */
+  .footer-links{
+    text-align: center;
+  }
+
+  @media(max-width:575px){
+    footer img{
+      display: none;
+    }
+  }
+/* Footer ends */
