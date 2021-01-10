@@ -144,9 +144,21 @@ a {
 
 .sponsor-content{
   background-color: #f7edef;
+  /* overflow: scroll; */
+  height: 500px;
 }
 .sponsor-image{  
   background-color: #bed1f6;  
+}
+
+@media(max-width:575px){
+  .sponsor-content{
+    height: 500px;    
+  }
+
+  .sponsor-row{
+    /* padding-top: 40px; */
+  }
 }
 
 /* Sponsor ends */
