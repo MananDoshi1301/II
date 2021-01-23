@@ -138,8 +138,7 @@ a {
 .content{
   width: 100%;
   background-color: #138890;
-  
-  transform: rotateY(180deg);  
+  transform:rotateY(180deg);  
   color: White;
   box-shadow: 1px 1px 10px #888888;
 }
@@ -149,8 +148,8 @@ a {
 }
 
 .manual-card:hover > .content{
-  
   transform: rotateY(0deg);
+  
 }
 
 .back-content-head{
@@ -163,6 +162,12 @@ a {
 .back-content-content{
   overflow-y: scroll;
   font-family: 'Architects Daughter', cursive;
+  visibility: hidden;
+  transition: 0.6s ease;
+}
+
+.manual-card:hover .back-content-content{
+  visibility: visible;
 }
 
 .h-60{
