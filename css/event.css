@@ -118,7 +118,7 @@ a {
 
 /* Events Start*/
 
-.imgBx, .content{
+.imgBx, .content, .back-content-content{
   backface-visibility: hidden;
   border-radius: 30px;
   transition: transform .6s linear;
