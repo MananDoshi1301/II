@@ -118,6 +118,38 @@ a {
 
 /* Events Start*/
 
+@media(max-width:414px) and (min-width:360px){
+  .event-content{
+    height:400px;
+    overflow-y: scroll;
+  }
+  .event-content-header{
+    font-size: 1.3em;
+  }
+}
+
+@media(max-width:767px){
+  .event-content{
+    background-color: #1CCAD8;
+      color: white;  
+      margin: 50px;   
+  }
+}
+
+@media(min-width:768px){
+  .event-content-odd{
+    background-color: #1CCAD8;
+    color: white;
+  }
+
+  .event_img-even{
+    background-color: #1CCAD8;
+  }
+}
+.event_img img{
+  box-shadow: 1px 1px 15px #333;
+}
+
 .event-content-header{
   font-family: 'Potta One', cursive;
 }
@@ -138,7 +170,7 @@ a {
 }
 
 * ::-webkit-scrollbar-track {
-  background: #138890; 
+  background: #1CCAD8; 
 }
 
 ::-webkit-scrollbar-thumb {
