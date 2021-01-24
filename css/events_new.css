@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Potta+One&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -126,6 +128,9 @@ a {
   .event-content-header{
     font-size: 1.3em;
   }
+  .header{
+    text-align: center;
+  }
 }
 
 @media(max-width:767px){
@@ -133,6 +138,10 @@ a {
     background-color: #1CCAD8;
       color: white;  
       margin: 50px;   
+  }
+
+  .header{
+    text-align: center;
   }
 }
 
@@ -145,7 +154,19 @@ a {
   .event_img-even{
     background-color: #1CCAD8;
   }
+
+  .event-content-even, .event_img-odd{
+    
+    background-color: #f5c9c9; 
+  }  
 }
+
+.header{
+  background-color: #E7E247;
+  color: #931621;
+  border: 15px dashed #931621;  
+}
+
 .event_img img{
   box-shadow: 1px 1px 15px #333;
 }
@@ -155,11 +176,15 @@ a {
 }
 
 .event-content-content{
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Architects Daughter', cursive;  
 }
 
 .duration, .mode{
   font-family: 'Potta One', cursive;
+}
+
+.last-img-div{
+  border-bottom: 1px solid #1CCAD8;
 }
 /* Events End*/
 
@@ -170,7 +195,7 @@ a {
 }
 
 * ::-webkit-scrollbar-track {
-  background: #1CCAD8; 
+  background: #138890; 
 }
 
 ::-webkit-scrollbar-thumb {
