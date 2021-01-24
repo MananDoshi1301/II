@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Potta+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arvo", serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.logo > img {  
+  padding-left: 10px;
+}
+
+.brand {
+  text-align: center;
+}
+
+.main-ii{
+  color: #DBE9EE;
+  background-color: #003399;
+}
+
+.icon-links  i{    
+  border-radius: 100%;  
+  padding: 30px;
+  transition: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.insta {  
+  color: #DBE9EE;
+}
+
+.insta:hover {
+  background-color: #DBE9EE;
+  color: #e4405f;
+  box-shadow: 0px 1px 50px 5px #DBE9EE;
+  transform: translate(0, -7px);
+}
+
+.linked {
+  color: #DBE9EE;
+}
+
+.linked:hover {
+  background-color: #DBE9EE;
+  color: #0077b5;
+  box-shadow: 0px 1px 50px 5px #DBE9EE;
+  transform: translate(0, -7px);
+}
+
+.facebook {
+  color: #DBE9EE;
+}
+
+.facebook:hover {
+  background-color: #DBE9EE;
+  color: #3b5999;
+  box-shadow: 0px 1px 50px 5px #DBE9EE;
+  transform: translate(0, -7px);
+}
+
+.youtube {
+  color: #DBE9EE;
+}
+
+.youtube:hover {
+  background-color: #DBE9EE;
+  color: #cd201f;
+  box-shadow: 0px 1px 50px 5px #DBE9EE;
+  transform: translate(0, -7px);
+}
+
+/* New code */
+
+@media(max-width:768px){
+  #icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  #icons>div div{
+    margin: 0 0px;
+  }
+  #main-header{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:576px){
+  #main-header~div{
+    font-size: 1rem;
+  }
+  html, body{
+    overflow-x: hidden;
+  }
+}
+
+/* New code */
+
+/* Top nav end*/
+
+/* Navbar start */
+
+.nav-container {
+  z-index: 20;
+}
+
+.navbar-start{
+  color: #DBE9EE;
+  background-color: #011b70;
+}
+
+/* Navbar end */
+
+/* Events Start*/
+
+@media(max-width:414px) and (min-width:360px){
+  .event-content{
+    height:400px;
+    overflow-y: scroll;
+  }
+  .event-content-header{
+    font-size: 1.3em;
+  }
+  .header{
+    text-align: center;
+  }
+}
+
+@media(max-width:767px){
+  .event-content{
+    background-color: #1CCAD8;
+      color: white;  
+      margin: 50px;   
+  }
+
+  .header{
+    text-align: center;
+  }
+}
+
+@media(min-width:768px){
+  .event-content-odd{
+    background-color: #1CCAD8;
+    color: white;
+  }
+
+  .event_img-even{
+    background-color: #1CCAD8;
+  }
+
+  .event-content-even, .event_img-odd{
+    
+    background-color: #f5c9c9; 
+  }  
+}
+
+.header{
+  background-color: #E7E247;
+  color: #931621;
+  border: 15px dashed #931621;  
+}
+
+.event_img img{
+  box-shadow: 1px 1px 15px #333;
+}
+
+.event-content-header{
+  font-family: 'Potta One', cursive;
+}
+
+.event-content-content{
+  font-family: 'Architects Daughter', cursive;  
+}
+
+.duration, .mode{
+  font-family: 'Potta One', cursive;
+}
+
+.last-img-div{
+  border-bottom: 1px solid #1CCAD8;
+}
+/* Events End*/
+
+/* Scroll Bar Start */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+* ::-webkit-scrollbar-track {
+  background: #138890; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D74766; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a3364d; 
+}
+
+/* Scroll Bar End */
+
+/* Footer starts */
+
+footer{
+  background-color:#202c39;
+  color: white;
+}
+
+footer ul{
+  list-style-type: none;
+  color: #b6aaa5;
+  padding-top: 20px;
+}
+
+.footer-icon{
+  border-radius: 50%;
+  transition: 0.5s;
+  padding: 10px;
+}
+
+.footer-icon:hover{
+  transform: translate(0,-10px);
+}
+
+footer ul>li{
+  transition: 0.3s;
+}
+
+footer ul>li:hover{    
+  color:#F6F4F4;
+}
+
+.footer-links{
+  text-align: center;
+}
+
+@media(max-width:575px){
+  footer img{
+    display: none;
+  }
+}
+/* Footer ends */
