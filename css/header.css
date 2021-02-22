@@ -116,3 +116,26 @@ a {
 }
 
 /* Navbar end */
+
+
+
+/* Injection classes using js start */
+
+.undl-small{
+  color:green;
+  display:inline-block;
+  position:relative;
+  
+}
+
+.undl::after{
+  content:'';
+  height:2px;
+  width:20%;
+  background:#f24432;
+  position:absolute;
+  left:calc(50% - 10%);
+  bottom:-5px;
+}
+
+/* Injection classes using js end */
